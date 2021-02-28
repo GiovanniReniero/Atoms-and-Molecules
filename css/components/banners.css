@@ -1,0 +1,32 @@
+/* Good set up for a decently responding background image with some hgroup inside */
+/* class banner reffers to the box the background of which is filled by the selected image  */
+/* class caption reffers to the hgroup to which the image is a background, ie Title and catch phrase */
+
+
+#banner{
+  background-image: url("https://picsum.photos/id/237/900/500");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#caption{
+  padding: 250px 100px 250px 100px;
+  text-align: center;
+}
+
+
+#caption h1{
+  font-size: 45px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+#caption h2{
+  font-size: 24px;
+  font-weight: 400;
+  color: aliceblue;
+  opacity: 0.6;
+}
+
