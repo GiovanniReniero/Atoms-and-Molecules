@@ -3,7 +3,6 @@
 text-decoration: none;
 background-color: rgb(228, 29, 87);
 color: white ;
-/* font-weight: bolder; */
 border-radius: 4px;
 padding: 8px 96px 8px 96px;
 /* box-shadow: 2px 2px 11px rgba(80, 80, 80, 0.2); */
@@ -27,6 +26,6 @@ transition: 0.3s;
 }
 
 .btn_medium:hover {
-  color: rgb(116, 214, 143);
+color: rgb(116, 214, 143);
   border-color:  rgb(116, 214, 143);
 }

@@ -4,20 +4,21 @@
 @import url("components/container.css");
 @import url("components/avatars.css");
 @import url("components/buttons.css");
+@import url("components/banners.css");
 /* @import url("components/buttons.css"); */
 
 /* FONTS AND COLOURS ONLY */
-main{
+body{
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(120, 120, 120);
 }
 
-main h1{
+body h1{
   text-align: center;
 }
 
-main h2{
+body h2{
   text-align: justify;
   color: rgb(140, 140, 140);
   

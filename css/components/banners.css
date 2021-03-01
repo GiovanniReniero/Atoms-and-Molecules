@@ -3,30 +3,55 @@
 /* class caption reffers to the hgroup to which the image is a background, ie Title and catch phrase */
 
 
-#banner{
-  background-image: url("https://picsum.photos/id/237/900/500");
+/* .banner{ */
+  /* background-image: url("https://picsum.photos/id/237/900/500"); */
+  /* height: 100%; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+/*  */
+/* .hgroup{ */
+  /* padding: 250px 100px 250px 100px; */
+  /* text-align: center; */
+  /* } */
+  /*  */
+  /*  */
+  /* .hgroup h1{ */
+    /* font-size: 45px; */
+    /* font-weight: 600; */
+    /* color: aliceblue; */
+    /* } */
+    /*  */
+    /* .hgroup h2{ */
+      /* font-size: 24px; */
+      /* font-weight: 400; */
+      /* color: aliceblue; */
+      /* opacity: 0.6; */
+      /* } */
+      
+      
+.banner{ 
+  color: white;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 250px 0;
 }
-
-#caption{
-  padding: 250px 100px 250px 100px;
-  text-align: center;
-}
-
-
-#caption h1{
+      
+.banner h1{
   font-size: 45px;
-  font-weight: 600;
-  color: aliceblue;
+  text-shadow: 2px 2px 3px rgb(240, 240, 240);
 }
 
-#caption h2{
-  font-size: 24px;
-  font-weight: 400;
-  color: aliceblue;
-  opacity: 0.6;
+.banner h2 {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  text-shadow: 2px 2px 3px rgb(140, 140, 140);
+  margin-bottom: 38px;
 }
 
+.banner a {
+  margin-left: 349px;
+}
