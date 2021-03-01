@@ -1,0 +1,19 @@
+.card_category{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.card_product{
+  display: flex;
+  align-items: center;
+ 
+
+
+
+}
