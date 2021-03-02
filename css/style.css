@@ -8,7 +8,6 @@
 @import url("components/cards.css");
 
 
-
 /* FONTS AND COLOURS ONLY */
 body{
   text-align: justify;
@@ -23,5 +22,4 @@ body h1{
 body h2{
   text-align: justify;
   color: rgb(140, 140, 140);
-  
 }
