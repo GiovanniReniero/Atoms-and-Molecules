@@ -39,7 +39,7 @@
 
 .picture_product{
   height: 150px; 
-   /* Always set the height rather than the width or it'' mess up the sizing later */
+   /* Always set the height rather than the width or it'' mess up the responsiveness on different devices */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,12 +54,11 @@
   box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1);
 }
 
-
 .picture_travel{
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 250px; /* Alternative to background stuff!!!!*/
+  width: 100%; /* Alternative to background stuff!!!!*/
+  /* object-position: center;  */
+  object-fit:  cover; /* Alternative to background stuff!!!!*/
   border-radius: 4px;
 }
 
@@ -67,16 +66,11 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 10px;
-  /* margin-bottom: 10px; */
+  padding: 16px;
 }
 
 .hgroup_travel h2, p{
   margin: 0;
-}
-
-.item{
-  flex-grow: 1; 
 }
 
 

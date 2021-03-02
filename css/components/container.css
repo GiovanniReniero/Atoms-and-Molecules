@@ -1,4 +1,67 @@
-.container{
-  width: 1000px;
-  margin: 0 auto;
+/* .container{ */
+  /* width: 1000px; */
+  /* margin: 0 auto; */
+/* } */
+
+/* css statements that determing what to do based on different screen width. You need to figure out where the break points really are. The ones below are random */
+
+@media (max-width: 900px) {
+  .contianer{
+    width: 700px;
+  }
 }
+
+@media (max-width: 700px) {
+  .contianer{
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contianer{
+    width: 550px;
+  }
+  
+  /* To make my banners responsive I found that the following adjustments needed to be made to render nicely on smaller screens: */
+  
+  .container h2{
+    font-size: 20px;
+  }
+  .container p{
+    font-size: 14px;
+    text-align: left;
+  }
+}
+-------------------------------------------------------------------------
+
+/* Below are some Break -points I downloaded from the net. I believe I need to understand when to use min-width rather than max-width as above */
+
+/* @media (min-width: 640px) { */ */
+  /* .contianer{ */
+    /* width: 500px; */
+   /* } */
+   /* .contianer h2{ */
+     /* font-size: 16px; */
+   /* } */
+ /* }  */
+/* @media (min-width: 768px) { */
+  /* .contianer{ */
+    /* width: 640px; */
+  /* } */
+/* } */
+/* @media (min-width: 1024px) { */
+  /* .contianer{ */
+    /* width: 768px; */
+  /* } */
+/* } */
+/* @media (min-width: 1280px) { */
+  /* .contianer{ */
+    /* width: 1024px; */
+  /* } */
+/* } */
+/* @media (min-width: 1536px) { */
+  /* .contianer{ */
+    /* width: 1280px; */
+   /* }  */
+/* } */
+
